@@ -3,6 +3,7 @@ import Link from "next/link";
 import { NavigationMenu, NavigationMenuItem, NavigationMenuLink, navigationMenuTriggerStyle } from "../ui/navigation-menu";
 import { ModeToggle } from "../mode-toggle";
 
+
 export interface NavItem {
 	navigationLink: string;
 	navigationDescription: string;
