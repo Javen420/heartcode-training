@@ -2,7 +2,6 @@
 import Link from "next/link";
 import { NavigationMenu, NavigationMenuItem, NavigationMenuLink, navigationMenuTriggerStyle } from "../ui/navigation-menu";
 import { ModeToggle } from "../mode-toggle";
-import heart from "../assets/heart.png"
 
 export interface NavItem {
 	navigationLink: string;
